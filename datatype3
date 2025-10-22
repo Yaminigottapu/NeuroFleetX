@@ -1,0 +1,7 @@
+ class Datatype1{
+    public static void main(String[] args){
+   char hello='q';
+   
+   System.out.println(hello);
+    }
+ }
