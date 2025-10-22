@@ -1,0 +1,13 @@
+ class Helloworld {
+    public static void main(String[] args){
+   int a=5;
+   int b=8;
+   int c=9;
+   int d=a+b+c;
+   int s=a-b-c;
+   int o=b%2;
+   System.out.println(d);
+      System.out.println(d);
+      System.out.println(o);
+    }
+ }
