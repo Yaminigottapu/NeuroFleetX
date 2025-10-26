@@ -1,0 +1,30 @@
+import logo from './neww.jpg'; 
+ function Login(){
+return(
+   <div className="main">
+      <p className='neuro'>Neuro<b className='fleet'>fleetX</b></p>
+      <img  className="img"src={logo}alt="" width={150} />
+      <p>
+    <label className="lable-email" htmlFor="email">E-mail</label>
+    </p>
+    <p>
+      <input className="email" type="email" />
+    </p>
+    <p>
+          <label className="lable-password" htmlFor="password">password</label>
+    </p>
+    <p>
+      <input className="password" type="password" />
+    </p>
+    <p>
+      <button className="login">Login</button>
+    </p>
+    <p>
+      <button className="sign">sign up</button>
+    </p>
+    
+    <p className="forget">Forget password</p>
+   </div>
+)
+ }
+ export default Login;
