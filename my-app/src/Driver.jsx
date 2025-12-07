@@ -329,7 +329,7 @@ const DriverDashboard = () => {
   const [activePage, setActivePage] = useState("Dashboard");
 
   const [rides, setRides] = useState([
-    { user: "Alice", type: "Sedan", date: "15 Nov 2025", status: "Upcoming", location: { lat: 19.075, lng: 72.8777 } },
+  { user: "Alice", type: "Sedan", date: "15 Nov 2025", status: "Upcoming", location: { lat: 19.075, lng: 72.8777 } },
     { user: "Bob", type: "SUV", date: "16 Nov 2025", status: "Accepted", location: { lat: 28.7041, lng: 77.1025 } },
     { user: "Charlie", type: "Mini", date: "17 Nov 2025", status: "Upcoming", location: { lat: 12.9716, lng: 77.5946 } },
   ]);
@@ -520,7 +520,7 @@ const MyRides = ({ rides, handleRideAction }) => {
             {rides.map((ride, i) => (
               <tr key={i} className="hover:bg-white/10 transition">
                 <td className="p-3">{ride.user}</td>
-                <td className="p-3">{ride.type}</td>
+                  <td className="p-3">{ride.type}</td>
                 <td className="p-3">{ride.date}</td>
                 <td className="p-3">
                   <span className={`px-3 py-1 rounded-full ${statusColors[ride.status]}`}>{ride.status}</span>

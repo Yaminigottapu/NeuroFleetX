@@ -62,7 +62,7 @@ const BookingModal = ({ onClose, onAdd }) => {
               required
             />
           </div>
-          <div>
+          {/* <div>
             <label className="block font-medium mb-1 text-black">Driver</label>
             <input
               type="text"
@@ -72,7 +72,7 @@ const BookingModal = ({ onClose, onAdd }) => {
               placeholder="Driver name"
               required
             />
-          </div>
+          </div> */}
           <div>
             <label className="block font-medium mb-1 text-black">Status</label>
             <select
@@ -114,8 +114,8 @@ const CustomerDashboard = () => {
 
   const [bookings, setBookings] = useState([
     { date: "15 Nov 2025", type: "Sedan", driver: "Ravi", status: "Completed" },
-    { date: "16 Nov 2025", type: "SUV", driver: "Amit", status: "Upcoming" },
-    { date: "17 Nov 2025", type: "Mini", driver: "Ravi", status: "Upcoming" },
+    { date: "16 Nov 2025", type: "SUV", driver: "Amit", status: "Completed" },
+    { date: "17 Nov 2025", type: "Mini", driver: "Ravi", status: "Completed" },
   ]);
 
   const menuItems = ["Dashboard", "My Bookings", "Profile"];
