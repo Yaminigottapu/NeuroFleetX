@@ -1,0 +1,16 @@
+class Helloworld {
+    public static void main(String[] args) {
+        int a = 51;
+        int b = 8;
+        int c = 91;
+
+        // Example if condition
+        if (a > b) {
+            System.out.println("a is greater than b");
+        }
+
+        System.out.println("Value of a: " + a);
+        System.out.println("Value of b: " + b);
+        System.out.println("Value of c: " + c);
+    }
+}
