@@ -1,0 +1,6 @@
+class Datatype3 {
+    public static void main(String[] args) {
+        char hello = 'q';   // char must be in single quotes
+        System.out.println(hello);
+    }
+}
