@@ -1,0 +1,6 @@
+class Datatype2 {
+    public static void main(String[] args) {
+        float hello = 20;
+        System.out.println(hello);
+    }
+}
