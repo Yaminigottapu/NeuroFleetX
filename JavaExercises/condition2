@@ -1,0 +1,15 @@
+class Helloworld {
+    public static void main(String[] args) {
+        int hello = 80;
+        int hai = 70;
+        int haa = 8;
+
+        if (hello > hai) {
+            System.out.println(hello);
+        } else if (hai < haa) {
+            System.out.println(hai);
+        }
+
+        System.out.println(haa);
+    }
+}
