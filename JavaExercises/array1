@@ -1,0 +1,16 @@
+// finding largest element in an array
+class Javaarray1 {
+    public static void main(String[] args) {
+        int arr[] = {12, 35, 1, 10, 34, 1};
+        
+        int ans = arr[0];   // initialize with first element
+        
+        for (int i = 1; i < arr.length; i++) {
+            if (ans < arr[i]) {
+                ans = arr[i];   // update maximum
+            }
+        }
+        
+        System.out.println("Largest element = " + ans);
+    }
+}
